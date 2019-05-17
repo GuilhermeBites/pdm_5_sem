@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <EditText
-        android:id="@+id/usuarioTxt"
+        android:id="@+id/emailIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -57,10 +57,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usuarioTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/emailIN" />
 
     <EditText
-        android:id="@+id/senhaTxt"
+        android:id="@+id/senhaIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -75,14 +75,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <Button
-        android:id="@+id/btacessar"
+        android:id="@+id/singIN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="20dp"
         android:text="acessar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senhaTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/senhaIN" />
 
     <Button
         android:id="@+id/button2"
@@ -92,7 +92,7 @@
         android:layout_marginEnd="60dp"
         android:text="Cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senhaTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/senhaIN" />
 
     <ImageView
         android:id="@+id/imageView"
